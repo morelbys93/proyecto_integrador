@@ -11,7 +11,9 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Font Awesome -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
 		<link rel="icon" href="images/ico.jpg" type="image/x-icon">
 
 		<title>QueenCandy| HOME</title>
@@ -26,11 +28,9 @@
 			<!-- Menu -->
 			<nav class="main-nav">
 				<ul>
-					<li><a href="#">Registrate</a></li>
-					<li><a href="#">Ingresar</a></li>
-					<li><a href="#">#########</a></li>
-					<li><a href="#">#########</a></li>
-					<li><a href="#">##########</a></li>
+					<li><a href="#"><i class="fas fa-registered"></i>registro</a></li>
+					<li><a href="#"> <i class="fas fa-sign-in-alt"></i> login</a> </li>
+					<li><a href="#"><i class="fas fa-question"></i>faq</a></li>
 
 				</ul>
 			</nav>
@@ -47,10 +47,16 @@
       <img class="d-block w-100" src="images/tres.jpg" alt="Third slide">
     </div>
 		<div class="carousel-item">
-      <img class="d-block w-100" src="images/cuatro.jpg" alt="Fourth slide">
+      <img class="d-block w-100" src="images/ocho.jpg" alt="Fourth slide">
     </div>
 		<div class="carousel-item">
-      <img class="d-block w-100" src="images/cinco.jpg" alt="Fifth slide">
+      <img class="d-block w-100" src="images/nueve.jpg" alt="Fifth slide">
+    </div>
+		<div class="carousel-item">
+      <img class="d-block w-100" src="images/seis.jpg" alt="Fifth slide">
+    </div>
+		<div class="carousel-item">
+      <img class="d-block w-100" src="images/siete.jpg" alt="Fifth slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -62,6 +68,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+	<h1>Productos Destacados</h1>
 
 
 
@@ -69,9 +76,9 @@
 		<footer class="main-footer">
 			<section class="redes">
         <ul>
-          <li>  <a href="https://twitter.com/MorelbysAnais"><i class="fab fa-twitter"></i></a>
-								<a href="https://www.facebook.com/morelbys.rodriguez.1"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/morerodrigg/"><i class="fab fa-instagram"></i></a>
+          <li>  <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+								<a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
 
           </li>
         </ul>

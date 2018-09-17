@@ -27,14 +27,27 @@ body {
 
 .main-header,
 .main-footer {
+
+	width: 100%;
 	text-align: center;
 	background-color: #0C0C0C;
-}
-.logo {
-	resize: horizontal;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
 }
+.logo img{
+	max-width: 100%;
+}
+.main-nav{
+	width: 20%;
+	display: flex;
 
+}
+.main-nav li{
+	flex-direction: row;
+
+}
 .main-footer {
 	background-color: #0C0C0C;
 	border-radius: 30px 30px 0 0;
@@ -48,13 +61,10 @@ body {
 	text-transform: uppercase;
 	width: 100%;
 	margin-bottom: 1px;
-
+	font-size: 14px;
 }
 
 /* Banner */
-.banner {
-	display: none;
-}
 
 /* Productos*/
 
@@ -83,24 +93,6 @@ body {
 		margin-right: 0;
 	}
 
-	.banner {
-		display: block;
-		margin-bottom: 30px;
-	}
-
-	.banner img {
-		width: 100%;
-	}
-
-	.vip-products {
-		overflow: hidden;
-	}
-
-	.product {
-		float: left;
-		width: 48%;
-		margin-right: 4%;
-	}
 	/* Más info en:
 	https://developer.mozilla.org/es/docs/Web/CSS/:last-child */
 	.product:nth-child(even){
