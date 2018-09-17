@@ -1,0 +1,172 @@
+/* Main styles Mobile First
+============================ */
+
+/* Globales */
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+body {
+	background-image: url(../images/pantalla.jpg)
+}
+
+.container {
+	max-width: 768px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+/* Header */
+
+.main-header,
+.main-footer {
+	text-align: center;
+	background-color: #0C0C0C;
+}
+.logo {
+	resize: horizontal;
+
+}
+
+.main-footer {
+	background-color: #0C0C0C;
+	border-radius: 30px 30px 0 0;
+}
+
+.main-nav a,
+.main-footer a {
+	text-decoration: none;
+	color:white;
+	padding: 5px 0;
+	text-transform: uppercase;
+	width: 100%;
+	margin-bottom: 1px;
+
+}
+
+/* Banner */
+.banner {
+	display: none;
+}
+
+/* Productos*/
+
+
+@media (min-width: 768px) {
+
+	.container {
+		max-width: 992px;
+	}
+
+	.toggle-nav {
+		display: none;
+	}
+
+	.main-nav {
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	.main-nav li {
+		float: left;
+		width: 15.25%;
+		margin-right: 1.69%;
+	}
+
+	.main-nav li:last-child {
+		margin-right: 0;
+	}
+
+	.banner {
+		display: block;
+		margin-bottom: 30px;
+	}
+
+	.banner img {
+		width: 100%;
+	}
+
+	.vip-products {
+		overflow: hidden;
+	}
+
+	.product {
+		float: left;
+		width: 48%;
+		margin-right: 4%;
+	}
+	/* Más info en:
+	https://developer.mozilla.org/es/docs/Web/CSS/:last-child */
+	.product:nth-child(even){
+		margin-right: 0;
+	}
+}
+
+	@media (min-width:992px) {
+		.container {
+			max-width: 1200px;
+		}
+		.product {
+			width: 32.20%;
+			margin-right: 1.69%;
+		}
+		.product:nth-child(2n) {
+			margin-right: 1.69%;
+		} /*Respetar margen .product */
+		.product:nth-child(3n) {
+			margin-right: 0;
+		}
+		.main-footer {
+			background-color: #0C0C0C;
+			border-radius: 30px 30px 0 0;
+		}
+		.main-footer ul {
+			padding: 80px 0;
+		}
+		.main-footer li {
+			display: inline-block;
+			border-right: 1px solid #fff;
+		}
+		.main-footer li:last-child{
+			border-right: 0;
+		}
+		.main-footer li a {
+			padding: 0 10px;
+			background: transparent;
+			text-transform: capitalize;
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
