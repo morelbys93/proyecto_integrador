@@ -26,7 +26,7 @@
 			<nav class="main-nav">
 				<ul>
 				  <li><a href="#" class="toggle-nav"><span class="fa fa-bars"></span></a></li>
-					<li><a href="#"><i class="fas fa-registered"></i>registro</a></li>
+					<li><a href="registro.php"><i class="fas fa-registered"></i>registro</a></li>
 					<li><a href="#"> <i class="fas fa-sign-in-alt"></i> login</a> </li>
 					<li><a href="#"><i class="fas fa-question"></i>faq</a></li>
 				</ul>
@@ -100,7 +100,7 @@
 
 
 	<h2 class="important_sections"><i class="fas fa-gift"></i>Paquetes Promocionales</h2>
-	
+
 
 		<!-- footer -->
 		<footer class="main-footer">
