@@ -1,0 +1,58 @@
+.body{
+  background: #0000;
+}
+.container{
+  width: 360px;
+  padding: 12% 0 0;
+  margin: auto;
+}
+.form{
+  position: relative;
+  max-width: 360px;
+  margin: 0 auto 90px;
+  background: #F0FFFF;
+  padding: 38px;
+  text-align: center;
+
+}
+.form button{
+  background: #9278;
+  width: 90%;
+  border: 1;
+  padding: 18px;
+  color: #ffff;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.form input{
+  width: 100%;
+  border: 1;
+  margin: 0 0 12px;
+  background: #C0C0C0;
+  padding: 14px;
+  box-sizing: border-box;
+  font-size: 16px;
+
+}
+.form .registro{
+  font-size: 12px;
+  color: #0928;
+  margin: 15px 0 0;
+}
+.form .registro a{
+  color: #209;
+  text-decoration: none;
+}
+
+@media (max-width: 1500px) {
+  .form {
+    padding: 55px 55px 50px 50px;
+  }
+
+
+@media (max-width: 576px) {
+  .form {
+    padding: 20px 52px 25px 25px;
+  }
+}
