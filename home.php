@@ -26,6 +26,9 @@
 			<nav class="main-nav">
 				<ul>
 				  <li><a href="#" class="toggle-nav"><span class="fa fa-bars"></span></a></li>
+
+					<li><a href="#"><i class="fas fa-registered"></i>registro</a></li>
+					<li><a href="login.<?php  ?>"> <i class="fas fa-sign-in-alt"></i> login</a> </li>
 					<li><a href="registro.php"><i class="fas fa-registered"></i>registro</a></li>
 					<li><a href="#"> <i class="fas fa-sign-in-alt"></i> login</a> </li>
 					<li><a href="#"><i class="fas fa-question"></i>faq</a></li>

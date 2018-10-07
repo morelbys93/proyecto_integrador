@@ -72,8 +72,6 @@ body {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-content: center;
-
-
 }
 
 .main-photo {
@@ -118,6 +116,16 @@ body {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+	.main-photo {
+		width: 20%;
+	  align-self: center;
+	}
+	.products{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-content: center;
 	}
 
 	@media (min-width:992px) {
