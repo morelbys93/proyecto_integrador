@@ -30,7 +30,7 @@ if ($_POST) {
 		<!-- Favicon -->
 			<link rel="icon" href="images/ico.jpg" type="image/x-icon">
 		<!-- titulo -->
-		<title>QueenCandy| REGISTRO</title>
+		<title>QueenCandy | REGISTRO ~ </title>
 	</head>
 	<body>
 	<div class="container">
@@ -92,7 +92,7 @@ if ($_POST) {
 							<?php echo (isset($errores["contrasena_conf"]))?'<p style="color:red;">'.$errores["contrasena_conf"].'</p>':""; ?>
 						</div>
 					</div>
-					
+
 		<!-- footer -->
 		<footer class="main-footer">
 			<section class="redes">
