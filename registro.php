@@ -92,10 +92,7 @@ if ($_POST) {
 							<?php echo (isset($errores["contrasena_conf"]))?'<p style="color:red;">'.$errores["contrasena_conf"].'</p>':""; ?>
 						</div>
 					</div>
-					<input type="submit" class="btn btn-info" value="Registrarme"/>
-				</form>
-			</div>
-		</div>
+					
 		<!-- footer -->
 		<footer class="main-footer">
 			<section class="redes">
