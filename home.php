@@ -69,8 +69,7 @@
 	  </a>
 		</div>
 		<!-- productos -->
-	<h2 class="important_sections"></i>Especialidades</h2>
-
+	<h2 class="important_sections">Especialidades</h2>
 		<!-- Cuerpo principal del sitio -->
 		<section class="products"><!-- Contenedor de todos los productos -->
 			<article class="producto"><!-- Contenedor de cada producto -->
@@ -98,11 +97,6 @@
 				<!--<a class="more" href="#">ver más</a>-->
 			</article>
 		</section>
-
-
-
-
-
 
 		<!-- footer -->
 		<footer class="main-footer">
