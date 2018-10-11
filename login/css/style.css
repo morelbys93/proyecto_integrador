@@ -45,6 +45,14 @@
   text-decoration: none;
 }
 
+/**article  {
+margin-bottom: 10px;
+}*//
+
+section article img  {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 1500px) {
   .form {
     padding: 55px 55px 50px 50px;

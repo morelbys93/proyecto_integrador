@@ -15,24 +15,23 @@
 		<!-- Favicon -->
 		<link rel="icon" href="images/ico.jpg" type="image/x-icon">
 		<!-- titulo -->
-		<title>QueenCandy| HOME</title>
+		<title> QueenCandy | Home ~ </title>
 	</head>
 	<body>
 	<div class="container">
 		<!-- cabecera -->
 		<header class="main-header">
-			<img src="images/queen_candy.png" alt="logotipo" class="logo">
+		<img src="images/queen_candy.png" alt="logotipo" class="logo">
 			<!-- barra de navegacion -->
 			<nav class="main-nav">
-				<ul>
-				  <li><a href="#" class="toggle-nav"><span class="fa fa-bars"></span></a></li>
-
-					<li><a href="#"><i class="fas fa-registered"></i>registro</a></li>
-					<li><a href="login.<?php  ?>"> <i class="fas fa-sign-in-alt"></i> login</a> </li>
-					<li><a href="registro.php"><i class="fas fa-registered"></i>registro</a></li>
-					<li><a href="#"> <i class="fas fa-sign-in-alt"></i> login</a> </li>
-					<li><a href="#"><i class="fas fa-question"></i>faq</a></li>
-				</ul>
+				 <!-- <li><a href="#" class="toggle-nav"><span class="fa fa-bars"></span></a></li>-->
+					<div class="menu">
+						<ul>
+						<li><a href="registro.php"><i class="fas fa-registered"></i> Registro</a></li>
+						<li><a href="login/login.php"> <i class="fas fa-sign-in-alt"></i> Login</a> </li>
+						<li><a href="#"><i class="fas fa-question"></i> FAQ</a></li>
+				  	</ul>
+					</div>
 			</nav>
 		</header>
 		<!-- Carousel -->
@@ -70,46 +69,46 @@
 	  </a>
 		</div>
 		<!-- productos -->
-	<h2 class="important_sections"><i class="fas fa-heart"></i>Productos Destacados</h2>
+	<h2 class="important_sections"></i>Especialidades</h2>
 
 		<!-- Cuerpo principal del sitio -->
 		<section class="products"><!-- Contenedor de todos los productos -->
 			<article class="producto"><!-- Contenedor de cada producto -->
 				<img class="main-photo" src="images/product1.jpg" alt=""><br>
-				<a class="more" href="#">ver más</a>
+			<!--	<a class="more" href="#">ver más</a> -->
 			</article>
-			<article class="producto">
+			 <article class="producto">
 				<img class="main-photo" src="images/product2.jpg" alt=""><br>
-				<a class="more" href="#">ver más</a>
+			<!--	<a class="more" href="#">ver más</a> -->
 			</article>
 			<article class="producto">
 				<img class="main-photo" src="images/product3.jpg" alt=""><br>
-				<a class="more" href="#">ver más</a>
+			<!--	<a class="more" href="#">ver más</a>-->
 			</article>
 			<article class="producto">
 				<img class="main-photo" src="images/product4.jpg" alt=""><br>
-				<a class="more" href="#">ver más</a>
+			<!--	<a class="more" href="#">ver más</a>-->
 			</article>
 			<article class="producto">
 				<img class="main-photo" src="images/product5.jpg" alt=""><br>
-				<a class="more" href="#">ver más</a>
+			<!--	<a class="more" href="#">ver más</a>-->
 			</article>
 			<article class="producto">
 				<img class="main-photo" src="images/product6.jpg" alt=""><br>
-				<a class="more" href="#">ver más</a>
+				<!--<a class="more" href="#">ver más</a>-->
 			</article>
 		</section>
 
 
 
-	<h2 class="important_sections"><i class="fas fa-gift"></i>Paquetes Promocionales</h2>
+
 
 
 		<!-- footer -->
 		<footer class="main-footer">
 			<section class="redes">
         <ul>
-          <li> 	<a href="#">¡SEGUINOS!<i class="fas fa-thumbs-up"></i></a><br>
+          <li> 	<a href="#">¡Seguinos en nuestras redes sociales! <i class="fas fa-thumbs-up"></i></a><br>
 						 		<a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
 								<a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>

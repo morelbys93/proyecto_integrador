@@ -28,7 +28,7 @@ if ($_POST) {
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styleregistro.css">
 		<!-- Favicon -->
-		<link rel="icon" href="images/ico.jpg" type="image/x-icon">
+			<link rel="icon" href="images/ico.jpg" type="image/x-icon">
 		<!-- titulo -->
 		<title>QueenCandy| REGISTRO</title>
 	</head>
