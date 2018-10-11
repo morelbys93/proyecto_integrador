@@ -28,7 +28,7 @@
 					<div class="menu">
 						<ul>
 						<li><a href="registro.php"><i class="fas fa-registered"></i> Registro</a></li>
-						<li><a href="login/login.php"> <i class="fas fa-sign-in-alt"></i> Login</a> </li>
+						<li><a href="login.php"> <i class="fas fa-sign-in-alt"></i> Login</a> </li>
 						<li><a href="#"><i class="fas fa-question"></i> FAQ</a></li>
 				  	</ul>
 					</div>
