@@ -46,61 +46,62 @@ if ($_POST) {
 				<form role="form" action="" method="post" enctype="multipart/form-data">
 					<div class="row">
 						<div class="form-group col-sm-6">
-							<label for="nombre">Nombre</label>
+							<label class="important_sections" for="nombre">Nombre</label>
 							<input type="text" class="form-control" id="nombre" name="nombre" value="<?php echo (!empty($nombre))?$nombre:""; ?>" placeholder="Ingrese Nombre">
 							<?php echo (isset($errores["nombre"]))?'<p style="color:red;">'.$errores["nombre"].'</p>':""; ?>
 						</div>
 						<div class="form-group col-sm-6">
-							<label for="apellido">Apellido</label>
+							<label class="important_sections" for="apellido">Apellido</label>
 							<input type="text" class="form-control" id="apellido" name="apellido" value="<?php echo (!empty($apellido))?$apellido:""; ?>" placeholder="Ingrese Apellido">
-							<?php if (isset($errores["apellido"])) {
-								//ejemplo toia
-								echo '<p style="color:red;">'.$errores["apellido"].'</p>';
-							} ?>
+							<?php echo (isset($errores["apellido"]))?'<p style="color:red;">'.$errores["apellido"].'</p>':""; ?>
 						</div>
 					</div>
 					<div class="row">
 						<div class="form-group col-sm-6">
-							<label for="username">Nombre de Usuario</label>
+							<label class="important_sections" for="username">Usuario</label>
 							<input type="text" class="form-control" id="username" name="username" value="<?php echo (!empty($usuario))?$usuario:""; ?>" placeholder="Ingrese Nombre de Usuario">
 							<?php echo (isset($errores["username"]))?'<p style="color:red;">'.$errores["username"].'</p>':""; ?>
 						</div>
 					</div>
 					<div class="row">
 						<div class="form-group col-sm-6">
-							<label for="email">Email</label>
+							<label class="important_sections" for="email">Email</label>
 							<input type="text" class="form-control" id="email" name="email" value="<?php echo (!empty($email))?$email:""; ?>" placeholder="Ingrese Email">
 							<?php echo (isset($errores["email"]))?'<p style="color:red;">'.$errores["email"].'</p>':""; ?>
 								<?php echo (isset($errores["email_conf"]))?'<p style="color:red;">'.$errores["email_conf"].'</p>':""; ?>
 						</div>
 						<div class="form-group col-sm-6">
-							<label for="email-confirm">Confirmar Email</label>
+							<label class="important_sections" for="email-confirm">Confirmar Email</label>
 							<input type="text" class="form-control" id="email-confirm" name="email_confirm" value="" placeholder="Ingrese Confirmación Email">
 								<?php echo (isset($errores["email_conf"]))?'<p style="color:red;">'.$errores["email_conf"].'</p>':""; ?>
 						</div>
 					</div>
 					<div class="row">
 						<div class="form-group col-sm-6">
-							<label for="contrasena">Contraseña</label>
+							<label class="important_sections" for="contrasena">Contraseña</label>
 							<input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Ingrese Contraseña">
 							<?php echo (isset($errores["contrasena"]))?'<p style="color:red;">'.$errores["contrasena"].'</p>':""; ?>
 							<?php echo (isset($errores["contrasena_conf"]))?'<p style="color:red;">'.$errores["contrasena_conf"].'</p>':""; ?>
 						</div>
 						<div class="form-group col-sm-6">
-							<label for="contrasena-confirm">Confirmar Contraseña</label>
+							<label class="important_sections" for="contrasena-confirm">Confirmar Contraseña</label>
 							<input type="password" class="form-control" id="contrasena-confirm" name="contrasena_confirm" placeholder="Ingrese Confirmación Contraseña">
 							<?php echo (isset($errores["contrasena_conf"]))?'<p style="color:red;">'.$errores["contrasena_conf"].'</p>':""; ?>
 						</div>
 					</div>
+<<<<<<< HEAD
+=======
+					<input type="submit" class="Regist" value="Registrarme">
+>>>>>>> 4d1912e576d8233afc3d1131b869491802fa3d5b
 
 		<!-- footer -->
 		<footer class="main-footer">
 			<section class="redes">
         <ul>
-          <li>  <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-								<a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-
+          <li><a href="#">¡Seguinos en nuestras redes sociales! <i class="fas fa-thumbs-up"></i></a><br>
+							<a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+							<a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
           </li>
         </ul>
       </section>
