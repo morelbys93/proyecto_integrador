@@ -1,10 +1,17 @@
-.body{
-  background-image: url(../images/pantalla.jpg);
+body {
+	background-image: url(../images/pantalla.jpg);
+	font-family: (sans-serif, Verdana, Tahoma);
 }
-.container{
-  width: 360px;
-  padding: 12% 0 0;
-  margin: auto;
+/* Contenedor*/
+
+.container {
+	max-width: 768px;
+	margin: 0 auto;
+	padding-top: 20px;
+
+}
+.logo img{
+	max-width: 100%;
 }
 .form{
   position: relative;
@@ -43,14 +50,6 @@
 .form .registro a{
   color: #209;
   text-decoration: none;
-}
-
-/**article  {
-margin-bottom: 10px;
-}*//
-
-section article img  {
-  margin-bottom: 10px;
 }
 
 @media (max-width: 1500px) {
