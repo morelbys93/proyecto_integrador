@@ -1,0 +1,118 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+body {
+	background-image: url(../images/pantalla.jpg);
+	font-family: (sans-serif, Verdana, Tahoma);
+}
+
+
+.logo{
+	max-width: 100%
+  position: absolute;
+  right: 50%;
+}
+.pregu{
+  position: relative;
+  max-width: 360px;
+  margin: 0 auto 30px;
+  background: #F0FFFF;
+  padding: 15px;
+  text-align: center;
+  background: #9278;
+  width: 90%;
+  border: 2;
+  padding: 8px;
+  color: #ffff;
+  font-size: 19px;
+	border-radius: 25px;
+	margin-bottoM: 8px;
+}
+.container{
+  width: 70%;
+  border: 1;
+  margin: 0 0 12px;
+  background: #FFFF;
+  box-sizing: border-box;
+  font-size: 16px;
+	max-width: 768px;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+.resp{
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+
+.main-header,
+.main-footer {
+
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.main-container{
+	padding: 20px;
+}
+
+.logo img{
+	max-width: 100%;
+	padding: 15px;
+}
+
+@media (max-width: 1500px) {
+  .form {
+    padding: 55px 55px 50px 50px;
+  }
+
+
+@media (max-width: 576px) {
+  .form {
+    padding: 20px 52px 25px 25px;
+  }
+}

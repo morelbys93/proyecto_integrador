@@ -72,3 +72,10 @@ function validarSiExiste($username,$email){
         }
       }
 }
+
+
+
+
+
+
+<--->
