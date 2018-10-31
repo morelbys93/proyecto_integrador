@@ -14,7 +14,8 @@ li {
 	list-style-type: none;
 }
 body {
-	background-image: url(../images/pantalla.jpg);
+	/*background-image: url(../images/pantalla.jpg);*/
+	background-color: black;
 	font-family: (sans-serif, Verdana, Tahoma);
 
 }
@@ -249,7 +250,7 @@ div.menu {
 		align-items: baseline;
 		}
 		.logo {
-	
+
 		min-width: 10%;
 		max-width: 15%;
 		display: flex;
