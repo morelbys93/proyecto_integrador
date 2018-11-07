@@ -22,9 +22,7 @@ if (!filter_var($datos["email"],FILTER_VALIDATE_EMAIL)) {
 if ($datos["email"]!=$datos["email_confirm"]) {
   $errores["email_conf"]="no concuerdan los emails";
 }
-if ($_FILES["avatar"]["size"] > 500000) {
-    $errores["avatar"]= "El archivo es demasiado grande.";
-}
+
 return $errores;
 }
 
@@ -72,10 +70,3 @@ function validarSiExiste($username,$email){
         }
       }
 }
-
-
-
-
-
-
-<--->

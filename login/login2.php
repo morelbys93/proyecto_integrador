@@ -1,5 +1,5 @@
 <?php
-require 'funciones.php';
+//require 'funciones.php';
 if ($_POST) {
   loginUsuario($_POST);
 }

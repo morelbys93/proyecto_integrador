@@ -8,7 +8,7 @@
   <!-- Favicon -->
   <link rel="icon" href="../images/ico.jpg" type="image/x-icon">
 </head>
-<body>
+<body style>
   <div class="container">
     <div class="form">
       <input type="text" placeholder="usuario">

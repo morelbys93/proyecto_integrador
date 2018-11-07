@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
 		<!-- Favicon -->
 		<link rel="icon" href="images/ico.jpg" type="image/x-icon">
 		<!-- titulo -->
@@ -29,7 +30,7 @@
 						<ul>
 						<li><a href="registro.php"><i class="fas fa-registered"></i> Registro</a></li>
 						<li><a href="login.php"> <i class="fas fa-sign-in-alt"></i> Login</a> </li>
-						<li><a href="#"><i class="fas fa-question"></i> FAQ</a></li>
+						<li><a href="pregfrec.html"><i class="fas fa-question"></i> FAQ</a></li>
 				  	</ul>
 					</div>
 			</nav>
