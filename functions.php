@@ -79,6 +79,7 @@ function logearUsuario($datosLogin){
       if (password_verify($datosLogin["contrasena"],$datos["usuarios"][$i]["contrasena"])) {
         session_start();
         $_SESSION['user']= $datos["usuarios"][$i]["username"];
+        $_SESSION['nombre']=$datos["usuarios"][$i]["nombre"];
         setcookie("perfil", $datos["usuarios"][$i]["foto"], time() + (86400 * 30));
 
         header("location:perfil.php");
