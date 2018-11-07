@@ -17,8 +17,10 @@
 		<link rel="icon" href="images/ico.jpg" type="image/x-icon">
 		<!-- titulo -->
 		<title> QueenCandy | Home ~ </title>
-	</head>
+		</head>
+
 	<body>
+	
 	<div class="container">
 		<!-- cabecera -->
 		<header class="main-header">
@@ -30,7 +32,7 @@
 						<ul>
 						<li><a href="registro.php"><i class="fas fa-registered"></i> Registro</a></li>
 						<li><a href="login.php"> <i class="fas fa-sign-in-alt"></i> Login</a> </li>
-						<li><a href="pregfrec.html"><i class="fas fa-question"></i> FAQ</a></li>
+						<li><a href="pregfrec.php"><i class="fas fa-question"></i> FAQ</a></li>
 				  	</ul>
 					</div>
 			</nav>
