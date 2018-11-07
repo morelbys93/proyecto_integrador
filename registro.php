@@ -89,10 +89,9 @@ if ($_POST) {
 							<?php echo (isset($errores["contrasena_conf"]))?'<p style="color:red;">'.$errores["contrasena_conf"].'</p>':""; ?>
 						</div>
 					</div>
-<<<<<<< HEAD
-=======
+
 					<input type="submit" class="Regist" value="Registrarme">
->>>>>>> 4d1912e576d8233afc3d1131b869491802fa3d5b
+
 
 		<!-- footer -->
 		<footer class="main-footer">
