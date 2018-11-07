@@ -17,8 +17,10 @@
 		<link rel="icon" href="images/ico.jpg" type="image/x-icon">
 		<!-- titulo -->
 		<title> QueenCandy | Home ~ </title>
-	</head>
+		</head>
+
 	<body>
+	
 	<div class="container">
 		<!-- cabecera -->
 		<header class="main-header">
