@@ -43,7 +43,7 @@ session_start();
 				 <!-- <li><a href="#" class="toggle-nav"><span class="fa fa-bars"></span></a></li>-->
 					<div class="menu">
 						<ul>
-					   <h1 style="color:white">¡Bienvenido <?php echo $_SESSION['user']; ?>!</h1>
+					   <h1 style="color:white">¡Bienvenido <?php echo $_SESSION['nombre']; ?>!</h1>
 				  	</ul>
 					</div>
 			</nav>
