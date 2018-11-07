@@ -1,6 +1,6 @@
 <?php
 function loginUsuario($datoslogin){
-  $archivo= file_get_contents("datos.json");
+  $archivo= file_get_contents("../datos.json");
   $datos= json_decode($archivo,true);
 
   for ($i=0; $i < count($datos["usuarios"]); $i++) {

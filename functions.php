@@ -8,7 +8,7 @@ if (strlen($datos["apellido"])<2) {
   $errores["apellido"]="Apellido no valido";
 }
 if (validarSiExiste($datos["username"],$datos["email"])) {
- $errores["username"]="ya existe este usuario o mail";
+ $errores["username"]="Ya existe este usuario o mail";
 }
 if (strlen($datos["contrasena"])<7) {
   $errores["contrasena"]="Contraseña demasiado corta";
@@ -17,10 +17,10 @@ if ($datos["contrasena"]!=$datos["contrasena_confirm"]) {
   $errores["contrasena_conf"]="No concuerdan las contraseñas";
 }
 if (!filter_var($datos["email"],FILTER_VALIDATE_EMAIL)) {
-  $errores["email"]="no ingreso un email valido";
+  $errores["email"]="No ingreso un email valido";
 }
 if ($datos["email"]!=$datos["email_confirm"]) {
-  $errores["email_conf"]="no concuerdan los emails";
+  $errores["email_conf"]="No concuerdan los emails";
 }
 
 return $errores;
