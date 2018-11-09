@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 function validacionRegistro($datos){
 $errores=[];
 if (strlen($datos["nombre"])<2) {
@@ -43,10 +45,10 @@ function guardarUsuario($datos){
   $usuarioJson=json_encode($guardados);
   file_put_contents("datos.json",$usuarioJson);
 }
+ function guardarUsuarioMysql($usuario){
 
 
-
-
+ }
 function validarSiExiste($username,$email){
   $archivo= file_get_contents("datos.json");
   $datos= json_decode($archivo,true);
@@ -80,10 +82,21 @@ function logearUsuario($datosLogin){
         session_start();
         $_SESSION['user']= $datos["usuarios"][$i]["username"];
         $_SESSION['nombre']=$datos["usuarios"][$i]["nombre"];
-        setcookie("perfil", $datos["usuarios"][$i]["foto"], time() + (86400 * 30));
+        setcookie("perfil", $datos["usuarios"], time() + (86400 * 30));
 
         header("location:perfil.php");
       }
+      function logout()
+      {
+          if(!isset($_SESSION)) {
+              session_start();
+          }
+          session_destroy();
+          setcookie('email', null, time() -1);
+          redirect('register.php');
+
+      }
+
     }
   }
 }

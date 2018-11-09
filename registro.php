@@ -5,11 +5,24 @@ if ($_POST) {
 	$apellido=$_POST["apellido"];
 	$usuario=$_POST["username"];
 	$email=$_POST["email"];
+	$contrasena=$_POST["contrasena"];
 	$errores=validacionRegistro($_POST);
+
 	var_dump($errores);
 	if (empty($errores)) {
 		guardarUsuario($_POST);
 	}
+	if(count($errores) == 0) {
+		//creando el objeto usuario, dontro de los parametros del mismo deben ir exactamente los del constructor
+		 $usuario = new User($nombre, $apellido, $usuario, $email, $contrasena);
+		 //Hash de la contrasena
+		 $contrasena= password_hash($usuarios-> getContrasena(), PASSWORD_DEFAULT);
+		 $usuario -> setContrasena ($contrasena);
+		//	saveUser($usuario);
+		
+			redirect('login.php');
+	   }
+
 }
  ?>
 <!DOCTYPE html>
@@ -35,6 +48,7 @@ if ($_POST) {
 	<body>
 	<div class="container">
 		<!-- cabecera -->
+		<h1
 		<a href="home.php">
       <header class="main-header">
       <img src="images/queen_candy.png" alt="logotipo" class="logo">
