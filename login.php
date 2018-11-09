@@ -30,8 +30,8 @@
     </a>
     <div class="container">
       <form class="form" role="form" action="" method="post" enctype="multipart/form-data">
-        <input type="text" id="usuario" name="username" placeholder="usuario">
-        <input type="password" id="contrasena" name="contrasena" placeholder="password">
+        <input type="text" id="usuario" name="username" placeholder="Ingrese su usuario">
+        <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña">
         <button type="submit">login</button>
         <p class="registro">No se encuentra registrado?<a href="registro.php"> Crear una cuenta</a></p>
       </form>

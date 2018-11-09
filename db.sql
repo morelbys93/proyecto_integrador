@@ -1,20 +1,20 @@
 CREATE DATABASE queencandy_db;
 USE queencandy_db;
 
-CREATE TABLE Tipo de usuario(
-    id int(4) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE Tipo_de_usuario(
+    id int(4)  NOT NULL AUTO PRIMARY KEY,
     Tipo int(4) NOT NULL, FOREIGN KEY,
 );
 CREATE TABLE Personas(
     id int(4) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    id_tipo int(2) NOT NULL, FOREIGN KEY,
+    id_tipo int(2) NOT NULL FOREIGN KEY,
     user varchar(40) UNIQUE NOT NULL,
     nombre varchar(100) NOT NULL,
     apellido varchar(100) NOT NULL,
     pass varchar(100) NOT NULL,
-    email varchar(100) NOT NULL,
+    email varchar(30) NOT NULL,
     dni int(9) NOT NULL,
-    date_created DATETIME NOT NULL DEFAULT NOW()
+    date_created DATETIME NOT NULL DEFAULT NOW(),
 );
 CREATE TABLE Empresas(
     id int(4) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
